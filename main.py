@@ -13,10 +13,7 @@ def main():
     
     bot = BotFactory.create_bot(DEPLOYMENT, bot_service)
 
-    if DEPLOYMENT:
-        bot.run()
-    else:
-        pass
+    bot.run()
 
 
 if __name__ == '__main__':

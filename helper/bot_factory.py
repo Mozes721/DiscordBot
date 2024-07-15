@@ -7,4 +7,4 @@ class BotFactory:
         if deployment:
             return DiscordBot(service)
         else:
-            return LocalBot
+            return LocalBot()
